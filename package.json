@@ -1,5 +1,5 @@
 {
-  "name": "@brightspace/google-import-classroom",
+  "name": "google-import-classroom",
   "description": "",
   "repository": "https://github.com/Brightspace/google-import-classroom.git",
   "scripts": {
