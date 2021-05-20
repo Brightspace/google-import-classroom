@@ -7,6 +7,8 @@
 			import '@brightspace-ui/core/components/demo/demo-page.js';
 			import '../google-import-classroom.js';
 		</script>
+		<script type="module" src="/node_modules/@brightspace-ui-labs/wizard/d2l-wizard.js"></script>
+		<script type="module" src="/node_modules/@brightspace-ui-labs/wizard/d2l-step.js"></script>
 		<title>GoogleImportClassroom</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
@@ -18,5 +20,19 @@
 				<d2l-google-import-classroom></d2l-google-import-classroom>
 			</d2l-demo-snippet>
 		</d2l-demo-page>
+		<d2l-labs-wizard id="wizard">
+			<d2l-labs-step title="Step 1">
+				<p> First step </p>
+			</d2l-labs-step>
+		
+			<d2l-labs-step title="Step 2">
+				<p> Second step </p>
+			</d2l-labs-step>
+		</d2l-labs-wizard>
+		<script>
+			const wizard = document.getElementById('wizard');
+			wizard.addEventListener('stepper-next', () => { return wizard.next(); });
+			wizard.addEventListener('stepper-restart', () => { return wizard.restart(); });
+		</script>
 	</body>
 </html>
