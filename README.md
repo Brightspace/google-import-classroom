@@ -1,4 +1,4 @@
-# @brightspace-ui/google-import-classroom
+# @brightspace/google-import-classroom
 
 [![NPM version](https://img.shields.io/npm/v/@brightspace-ui/google-import-classroom.svg)](https://www.npmjs.org/package/@brightspace-ui/google-import-classroom)
 
