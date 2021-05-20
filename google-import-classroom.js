@@ -21,7 +21,6 @@ class GoogleImportClassroom extends LitElement {
 
 	constructor() {
 		super();
-
 		this.prop1 = 'google-import-classroom';
 	}
 
