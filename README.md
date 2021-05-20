@@ -7,7 +7,7 @@
 Install from NPM:
 
 ```shell
-npm install @brightspace-ui/google-import-classroom
+npm install @brightspace/google-import-classroom
 ```
 
 ## Usage
