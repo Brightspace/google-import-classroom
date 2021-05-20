@@ -1,7 +1,7 @@
 {
-  "name": "@brightspace-ui/google-import-classroom",
+  "name": "@brightspace/google-import-classroom",
   "description": "",
-  "repository": "https://github.com/BrightspaceUI/google-import-classroom.git",
+  "repository": "https://github.com/Brightspace/google-import-classroom.git",
   "scripts": {
     "lint": "npm run lint:eslint && npm run lint:lit && npm run lint:style",
     "lint:eslint": "eslint . --ext .js,.html",
