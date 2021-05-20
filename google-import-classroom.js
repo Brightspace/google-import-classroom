@@ -27,7 +27,7 @@ class GoogleImportClassroom extends LitElement {
 
 	render() {
 		return html`
-			<h2>Hello ${this.prop1}!</h2>
+			<h2>Hello ${this.prop1}</h2>
 		`;
 	}
 }
